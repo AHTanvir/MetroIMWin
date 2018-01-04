@@ -179,7 +179,8 @@ namespace MetroImWin
 
         private void btn_notice_Click(object sender, EventArgs e)
         {
-           
+            //sendResult = new SendRes(this.phone,this.password);
+            //   sendResult.ShowDialog();
             if (Login.isAvailable())
             {
                 notice.ShowDialog();
